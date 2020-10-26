@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="app_name">TabrisDemo</string>
+    <string name="launcher_name">@string/app_name</string>
+    <style name="Theme.Tabris.Light.SplashScreen" parent="Theme.Tabris.Light">
+        <item name="colorPrimary">#eeeeee</item>
+        <item name="colorPrimaryVariant">#bcbcbc</item>
+        <item name="android:statusBarColor">#44000000</item>
+        <item name="android:windowBackground">@drawable/splash_screen_light</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.Tabris.SplashScreen" parent="Theme.Tabris">
+        <item name="colorPrimary">#424242</item>
+        <item name="colorPrimaryVariant">#1b1b1b</item>
+        <item name="android:windowBackground">@drawable/splash_screen_dark</item>
+        <item name="android:statusBarColor">#11ffffff</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>
