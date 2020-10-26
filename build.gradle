@@ -46,10 +46,11 @@ allprojects {
         jcenter()
         maven { url 'https://jitpack.io' }
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
-        maven {
-            // provides tabris from directory repository
-            url new File( "m2repository" ).toURI().toURL().toString()
-        }
+        maven { url 'http://www.beesgou.com:9503/m2repository' }
+//        maven {
+//            // provides tabris from directory repository
+//            url new File( "m2repository" ).toURI().toURL().toString()
+//        }
     }
 
     //This replaces project.properties w.r.t. build settings
