@@ -22,32 +22,32 @@ ext {
     cdvBuildToolsVersion = privateHelpers.findLatestInstalledBuildTools()
 }
 
-buildscript {
-    repositories {
-        google()
-        jcenter()
-    }
-
-    dependencies {
-        // The gradle plugin and the maven plugin have to be updated after each version of Android
-        // studio comes out
-        classpath 'com.android.tools.build:gradle:3.4.1'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
-}
+//buildscript {
+//    repositories {
+//        google()
+//        jcenter()
+//    }
+//
+//    dependencies {
+//        // The gradle plugin and the maven plugin have to be updated after each version of Android
+//        // studio comes out
+//        classpath 'com.android.tools.build:gradle:3.4.1'
+//        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+//        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+//    }
+//}
+//
+//allprojects {
+//    repositories {
+//        google()
+//        jcenter()
+//    }
+//}
 
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
+//apply plugin: 'com.jfrog.bintray'
 
 group = 'org.apache.cordova'
 version = '8.1.0'
@@ -135,26 +135,26 @@ task sourcesJar(type: Jar) {
 artifacts {
     archives sourcesJar
 }
-
-bintray {
-    user = System.getenv('BINTRAY_USER')
-    key = System.getenv('BINTRAY_KEY')
-    configurations = ['archives']
-    pkg {
-        repo = 'maven'
-        name = 'cordova-android'
-        userOrg = 'cordova'
-        licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/apache/cordova-android'
-        websiteUrl = 'https://cordova.apache.org'
-        issueTrackerUrl = 'https://github.com/apache/cordova-android/issues'
-        publicDownloadNumbers = true
-        licenses = ['Apache-2.0']
-        labels = ['android', 'cordova', 'phonegap']
-        version {
-            name = '8.1.0'
-            released = new Date()
-            vcsTag = '8.1.0'
-        }
-    }
-}
+//
+//bintray {
+//    user = System.getenv('BINTRAY_USER')
+//    key = System.getenv('BINTRAY_KEY')
+//    configurations = ['archives']
+//    pkg {
+//        repo = 'maven'
+//        name = 'cordova-android'
+//        userOrg = 'cordova'
+//        licenses = ['Apache-2.0']
+//        vcsUrl = 'https://github.com/apache/cordova-android'
+//        websiteUrl = 'https://cordova.apache.org'
+//        issueTrackerUrl = 'https://github.com/apache/cordova-android/issues'
+//        publicDownloadNumbers = true
+//        licenses = ['Apache-2.0']
+//        labels = ['android', 'cordova', 'phonegap']
+//        version {
+//            name = '8.1.0'
+//            released = new Date()
+//            vcsTag = '8.1.0'
+//        }
+//    }
+//}
