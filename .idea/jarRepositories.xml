@@ -71,5 +71,10 @@
       <option name="name" value="maven3" />
       <option name="url" value="http://www.beesgou.com:9503/m2repository" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven3" />
+      <option name="name" value="maven3" />
+      <option name="url" value="file:/$PROJECT_DIR$/../../tabrisTestApp/m2repository/" />
+    </remote-repository>
   </component>
 </project>
