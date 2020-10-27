@@ -56,7 +56,7 @@ dependencies {
 //    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
     implementation "androidx.appcompat:appcompat:$app_compat_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation "com.eclipsesource.tabris.android:tabris:$tabris_version"
+    implementation "com.eclipsesource.tabris.android:tabris:3.6.1"
 }
 
 android {

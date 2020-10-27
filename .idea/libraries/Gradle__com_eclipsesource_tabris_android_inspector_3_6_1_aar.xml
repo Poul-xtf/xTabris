@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.eclipsesource.tabris.android:inspector:3.6.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/3b87af577e790b515c2483b84344008f/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/3b87af577e790b515c2483b84344008f/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/3b87af577e790b515c2483b84344008f/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/bf045e4d93fbf5d5446b9e03e0fc620c/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/bf045e4d93fbf5d5446b9e03e0fc620c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/bf045e4d93fbf5d5446b9e03e0fc620c/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

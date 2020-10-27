@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="33804c2f-d84f-4d3f-8173-8ea6069abf2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_tabris_android_devtools_3_6_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_tabris_android_devtools_3_6_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_tabris_android_inspector_3_6_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_tabris_android_inspector_3_6_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_tabris_android_tabris_3_6_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_tabris_android_tabris_3_6_1_aar.xml" afterDir="false" />
@@ -20,17 +19,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules/myapp/myapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/myapp/myapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CordovaLib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +69,13 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -124,7 +120,7 @@
       <recent name="D:\development\workspace\test\android\com" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.android:app [assemble]">
+  <component name="RunManager" selected="Android App.myapp">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -325,22 +321,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="202" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603767053770" />
-    <state width="1865" height="393" key="GridCell.Tab.0.bottom" timestamp="1603767843162">
+    <state width="1865" height="218" key="GridCell.Tab.0.bottom" timestamp="1603769661258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603767843162" />
-    <state width="1865" height="393" key="GridCell.Tab.0.center" timestamp="1603767843162">
+    <state width="1865" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603769661258" />
+    <state width="1865" height="218" key="GridCell.Tab.0.center" timestamp="1603769661258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="393" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603767843162" />
-    <state width="1865" height="393" key="GridCell.Tab.0.left" timestamp="1603767843162">
+    <state width="1865" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603769661258" />
+    <state width="1865" height="218" key="GridCell.Tab.0.left" timestamp="1603769661258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="393" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603767843162" />
-    <state width="1865" height="393" key="GridCell.Tab.0.right" timestamp="1603767843162">
+    <state width="1865" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603769661258" />
+    <state width="1865" height="218" key="GridCell.Tab.0.right" timestamp="1603769661258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="393" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603767843162" />
+    <state width="1865" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603769661258" />
     <state x="575" y="195" width="771" height="654" key="find.popup" timestamp="1603766597046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -120,9 +120,9 @@ if (hasBuildExtras2) {
 
 // Set property defaults after extension .gradle files.
 ext.cdvCompileSdkVersion = cdvCompileSdkVersion == null ? (
-    defaultCompileSdkVersion == null
-        ? privateHelpers.getProjectTarget()
-        : defaultCompileSdkVersion
+        defaultCompileSdkVersion == null
+                ? privateHelpers.getProjectTarget()
+                : defaultCompileSdkVersion
 ) : Integer.parseInt('' + cdvCompileSdkVersion);
 
 if (ext.cdvBuildToolsVersion == null) {
@@ -145,7 +145,7 @@ ext.cdvMinSdkVersion = cdvMinSdkVersion == null ? defaultMinSdkVersion : Integer
 if (cdvMaxSdkVersion != null) {
     ext.cdvMaxSdkVersion = Integer.parseInt('' + cdvMaxSdkVersion)
 }
-ext.cdvTargetSdkVersion = cdvTargetSdkVersion == null ? defaultTargetSdkVersion  : Integer.parseInt('' + cdvTargetSdkVersion)
+ext.cdvTargetSdkVersion = cdvTargetSdkVersion == null ? defaultTargetSdkVersion : Integer.parseInt('' + cdvTargetSdkVersion)
 
 ext.cdvVersionCode = cdvVersionCode == null ? null : Integer.parseInt('' + cdvVersionCode)
 ext.cdvMinifyEnabled = cdvMinifyEnabled == null ? false : cdvMinifyEnabled.toBoolean();
@@ -180,7 +180,7 @@ task cdvPrintProps {
         println('cdvMaxSdkVersion=' + cdvMaxSdkVersion)
         println('cdvTargetSdkVersion=' + cdvTargetSdkVersion)
         println('cdvBuildMultipleApks=' + cdvBuildMultipleApks)
-        println('cdvMinifyEnabled=' + cdvMinifyEnabled)println('cdvBuildMultipleApks=' + cdvBuildMultipleApks)
+        println('cdvMinifyEnabled=' + cdvMinifyEnabled) println('cdvBuildMultipleApks=' + cdvBuildMultipleApks)
         println('cdvReleaseSigningPropertiesFile=' + cdvReleaseSigningPropertiesFile)
         println('cdvDebugSigningPropertiesFile=' + cdvDebugSigningPropertiesFile)
         println('cdvBuildArch=' + cdvBuildArch)
@@ -196,28 +196,28 @@ android {
         versionCode cdvVersionCode ?: new BigInteger("" + privateHelpers.extractIntFromManifest("versionCode"))
 //        applicationId privateHelpers.extractStringFromManifest("package")
 
-       def tabrisAndroidMinSdkVersion = 21 // enforce 21 instead of cordova default of 19
-       if (cdvMinSdkVersion != null && cdvMinSdkVersion > tabrisAndroidMinSdkVersion) {
-           minSdkVersion cdvMinSdkVersion
-       } else {
-           minSdkVersion tabrisAndroidMinSdkVersion
-       }
+        def tabrisAndroidMinSdkVersion = 21 // enforce 21 instead of cordova default of 19
+        if (cdvMinSdkVersion != null && cdvMinSdkVersion > tabrisAndroidMinSdkVersion) {
+            minSdkVersion cdvMinSdkVersion
+        } else {
+            minSdkVersion tabrisAndroidMinSdkVersion
+        }
 
-       if (cdvMaxSdkVersion != null) {
+        if (cdvMaxSdkVersion != null) {
             maxSdkVersion cdvMaxSdkVersion
-       }
+        }
 
-       if(cdvTargetSdkVersion != null) {
-           targetSdkVersion cdvTargetSdkVersion
-       }
+        if (cdvTargetSdkVersion != null) {
+            targetSdkVersion cdvTargetSdkVersion
+        }
 
-       buildConfigField "String", "JS_APP", "\"file:///android_asset/www/package.json\""
-       ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        buildConfigField "String", "JS_APP", "\"file:///android_asset/www/package.json\""
+        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
     }
 
     lintOptions {
-      checkReleaseBuilds false
-      abortOnError false;
+        checkReleaseBuilds false
+        abortOnError false;
     }
 
     compileSdkVersion cdvCompileSdkVersion
@@ -234,31 +234,31 @@ android {
 
         productFlavors {
             armeabi {
-                versionCode defaultConfig.versionCode*10 + 1
+                versionCode defaultConfig.versionCode * 10 + 1
                 ndk {
                     abiFilters = ["armeabi"]
                 }
             }
             armv7 {
-                versionCode defaultConfig.versionCode*10 + 2
+                versionCode defaultConfig.versionCode * 10 + 2
                 ndk {
                     abiFilters = ["armeabi-v7a"]
                 }
             }
             arm64 {
-                versionCode defaultConfig.versionCode*10 + 3
+                versionCode defaultConfig.versionCode * 10 + 3
                 ndk {
                     abiFilters = ["arm64-v8a"]
                 }
             }
             x86 {
-                versionCode defaultConfig.versionCode*10 + 4
+                versionCode defaultConfig.versionCode * 10 + 4
                 ndk {
                     abiFilters = ["x86"]
                 }
             }
             x86_64 {
-                versionCode defaultConfig.versionCode*10 + 5
+                versionCode defaultConfig.versionCode * 10 + 5
                 ndk {
                     abiFilters = ["x86_64"]
                 }
@@ -267,7 +267,7 @@ android {
     } else if (Boolean.valueOf(cdvVersionCodeForceAbiDigit)) {
         // This provides compatibility to the default logic for versionCode before cordova-android 5.2.0
         defaultConfig {
-            versionCode defaultConfig.versionCode*10
+            versionCode defaultConfig.versionCode * 10
         }
     }
 
@@ -284,7 +284,7 @@ android {
         release {
             minifyEnabled cdvMinifyEnabled
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-       }
+        }
     }
 
     if (cdvReleaseSigningPropertiesFile) {
@@ -292,7 +292,8 @@ android {
             release {
                 // These must be set or Gradle will complain (even if they are overridden).
                 keyAlias = ""
-                keyPassword = "__unset" // And these must be set to non-empty in order to have the signing step added to the task graph.
+                keyPassword = "__unset"
+                // And these must be set to non-empty in order to have the signing step added to the task graph.
                 storeFile = null
                 storePassword = "__unset"
             }
@@ -322,11 +323,11 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
     implementation fileTree(dir: 'libs', include: ['*.jar'/*,'*.aar'*/])
-    implementation("com.eclipsesource.tabris.android:tabris:$tabris_version")
-    if (configXmlHasPreference('EnableDeveloperConsole')) {
-        implementation("com.eclipsesource.tabris.android:devtools:$tabris_version")
-    }
-    debugImplementation("com.eclipsesource.tabris.android:inspector:$tabris_version")
+    implementation("com.eclipsesource.tabris.android:tabris:3.6.1")
+//    if (configXmlHasPreference('EnableDeveloperConsole')) {
+    implementation("com.eclipsesource.tabris.android:devtools:3.6.1")
+//    }
+    debugImplementation("com.eclipsesource.tabris.android:inspector:3.6.1")
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     // SUB-PROJECT DEPENDENCIES END
@@ -338,9 +339,9 @@ def configXmlHasPreference(key) {
         def preferenceMatcher = { preference -> preference.@name == key && preference.@value == 'true' }
         def globalPreference = widget.preference.find preferenceMatcher
         def androidPreference = widget.platform.find { platform -> platform.@name == 'android' }
-              .preference.find preferenceMatcher
+                .preference.find preferenceMatcher
         return !globalPreference.isEmpty() || !androidPreference.isEmpty()
-    } catch(e) {
+    } catch (e) {
         println e
         return false;
     }
@@ -360,9 +361,9 @@ def promptForReleaseKeyPassword() {
 
 gradle.taskGraph.whenReady { taskGraph ->
     taskGraph.getAllTasks().each() { task ->
-      if(['validateReleaseSigning', 'validateSigningRelease', 'validateSigningArmv7Release', 'validateSigningX76Release'].contains(task.name)) {
-         promptForReleaseKeyPassword()
-      }
+        if (['validateReleaseSigning', 'validateSigningRelease', 'validateSigningArmv7Release', 'validateSigningX76Release'].contains(task.name)) {
+            promptForReleaseKeyPassword()
+        }
     }
 }
 
@@ -410,7 +411,7 @@ if (hasProperty('postBuildExtras')) {
 configurations.all {
     resolutionStrategy.eachDependency { DependencyResolveDetails details ->
         if (details.requested.group == 'androidx') {
-             details.useVersion '1.0.0'
+            details.useVersion '1.0.0'
         }
     }
 }
