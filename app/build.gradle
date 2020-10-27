@@ -321,12 +321,12 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$app_compat_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation("com.eclipsesource.tabris.android:tabris:$tabris_version")
-    if (configXmlHasPreference('EnableDeveloperConsole')) {
-        implementation("com.eclipsesource.tabris.android:devtools:$tabris_version")
-    }
-    debugImplementation("com.eclipsesource.tabris.android:inspector:$tabris_version")
+    implementation fileTree(dir: 'libs', include: ['*.jar'/*,'*.aar'*/])
+//    implementation("com.eclipsesource.tabris.android:tabris:$tabris_version")
+//    if (configXmlHasPreference('EnableDeveloperConsole')) {
+//        implementation("com.eclipsesource.tabris.android:devtools:$tabris_version")
+//    }
+//    debugImplementation("com.eclipsesource.tabris.android:inspector:$tabris_version")
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     // SUB-PROJECT DEPENDENCIES END

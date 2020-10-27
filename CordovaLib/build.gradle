@@ -53,9 +53,12 @@ group = 'org.apache.cordova'
 version = '8.1.0'
 
 dependencies {
+//    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
     implementation "androidx.appcompat:appcompat:$app_compat_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-        implementation "com.eclipsesource.tabris.android:tabris:$tabris_version"
+    api "com.eclipsesource.tabris.android:tabris:$tabris_version"
+    api("com.eclipsesource.tabris.android:devtools:$tabris_version")
+    debugApi("com.eclipsesource.tabris.android:inspector:$tabris_version")
 }
 
 android {
@@ -152,7 +155,7 @@ bintray {
         labels = ['android', 'cordova', 'phonegap']
         version {
             name = '8.1.0'
-            released  = new Date()
+            released = new Date()
             vcsTag = '8.1.0'
         }
     }
