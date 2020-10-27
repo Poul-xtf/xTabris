@@ -10,40 +10,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33804c2f-d84f-4d3f-8173-8ea6069abf2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_0_alpha07_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_2_0_alpha01_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_0_alpha01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_0_alpha01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_4_0_alpha01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_0_alpha07_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_0_alpha06_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_0_alpha06_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_0_alpha06_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_0_alpha06_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_0_alpha06_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_alpha01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_j2v8_j2v8_6_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_tabris_android_devtools_3_6_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_tabris_android_inspector_3_6_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_eclipsesource_tabris_android_tabris_3_6_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_7_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_7_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CordovaLib/CordovaLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CordovaLib/CordovaLib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/myapp/myapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/myapp/myapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CordovaLib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/CordovaLib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.aar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.aar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.aar.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.aar.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.module.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.module.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.module.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.module.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.pom.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.pom.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/3.6.1/devtools-3.6.1.pom.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/maven-metadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/maven-metadata.xml.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/maven-metadata.xml.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/maven-metadata.xml.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/devtools/maven-metadata.xml.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.aar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.aar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.aar.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.aar.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.module.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.module.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.module.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.module.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.pom.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.pom.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/3.6.1/inspector-3.6.1.pom.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/maven-metadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/maven-metadata.xml.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/maven-metadata.xml.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/maven-metadata.xml.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/inspector/maven-metadata.xml.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.aar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.aar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.aar.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.aar.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.module.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.module.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.module.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.module.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.pom.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.pom.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/3.6.1/tabris-3.6.1.pom.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/maven-metadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/maven-metadata.xml.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/maven-metadata.xml.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/maven-metadata.xml.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2repository/com/eclipsesource/tabris/android/tabris/maven-metadata.xml.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
